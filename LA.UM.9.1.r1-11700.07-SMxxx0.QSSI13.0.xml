@@ -11,9 +11,6 @@
   </project>
   <project name="device/qcom/sepolicy_vndr" revision="9a9a7d10465ef6d76f2b19da5e83912fade1df8d" upstream="refs/heads/sepolicy.vndr.lnx.1.0.r7"/>
   <project name="device/qcom/vendor-common" revision="6877bf553eb2f2efc66a8d6d8c804554655c4af2" upstream="refs/heads/qcom-devices.lnx.6.0.r2-rel"/>
-  <project name="kernel/msm-4.14" revision="7c4755695cbd63be4f1a73e04c803d69450297ce" upstream="refs/heads/kernel.lnx.4.14.r15-rel">
-    <linkfile dest="kernel/msm-4.14/Android.bp" src="Androidbp"/>
-  </project>
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="ca737f65fad6c8e033d5b00293dfef34f9229121" upstream="refs/heads/audio-hal.lnx.6.0.r16-rel"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="fac0cb3faecad6e6c82b05d8ade569e4cc657536" upstream="refs/heads/android-core.lnx.6.0.r2-rel"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="52b0de453b251aff905a1be8d1104d1ecc756661" upstream="refs/heads/display.lnx.5.1.r2-rel">
