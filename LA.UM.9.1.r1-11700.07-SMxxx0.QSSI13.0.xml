@@ -17,9 +17,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
   </project>
-  <project name="kernel/msm-4.14" revision="7c4755695cbd63be4f1a73e04c803d69450297ce" upstream="refs/heads/kernel.lnx.4.14.r15-rel">
-    <linkfile dest="kernel/msm-4.14/Android.bp" src="Androidbp"/>
-  </project>
+
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="abaffddae8cffee2f5c9a9169424505e3327dd5e" upstream="refs/heads/location.lnx.5.0.r10-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-hal.mk" src="gps_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/gps-board.mk" src="gps_vendor_board.mk"/>
