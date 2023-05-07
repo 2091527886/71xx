@@ -4,6 +4,7 @@
     <image bins_path="LA.QSSI.11.0.r1" default="true" name="LA.QSSI.11.0.r1" project="la/system/manifest" server="git://git-android.quicinc.com" tag="AU_LINUX_ANDROID_LA.QSSI.11.0.R1.11.00.00.668.170.00" targets="qssi"/>
   </refs>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
+  <remote fetch="https://github.com" name="github"/>
   <default remote="clo" revision="partner-android/r-fs-release"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="ccde3c2f6cee374dfa01814b7adcc9afdfb4bfd2" upstream="refs/heads/uefi.lnx.2.1.r2"/>
   <project name="device/qcom/common" revision="3eae2276e5a6f94f8f19e61d5109703f960f482d" upstream="refs/heads/qcom-devices.lnx.6.0.r1">
@@ -12,7 +13,7 @@
   <project name="device/qcom/sepolicy_vndr" revision="ba70dce8ae9a099a802c7a71651babb8e32ae4cb" upstream="refs/heads/sepolicy.vndr.lnx.1.0.r5"/>
   <project name="device/qcom/vendor-common" revision="048f53bae092c8d0805025b3d06f84cbdc3ee8c7" upstream="refs/heads/qcom-devices.lnx.6.0.r1"/>
   <project name="kernel/build" path="device/qcom/kernelscripts" revision="6b0f5b25f1fb9629904b5c5916910cb8a6793e46" upstream="refs/heads/kernel.lnx.4.19.r3"/>
-  <project groups="cyborg" name="kernel/msm-4.19" revision="363d67322d1875139dde1888cc0552170a1942b0" upstream="refs/heads/kernel.lnx.4.19.r3"/>
+  <project remote="github" name="kernel/msm-4.19" path="kernel/msm-4.19" revision="e7a8fa8dfa9e0e501c2488f62ded44c1dbe1c9a1" />
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="ef8fa1e1c76e2b069b61da50388302c7b71617c3" upstream="refs/heads/audio-hal.lnx.8.0.r3"/>
   <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="fb7cb6cf224dea2e361e885ac85e4706a567ce13" upstream="refs/heads/android-core.lnx.6.0.r1"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="5a56d77e60a89155f0af053f1bbdba917df021a3" upstream="refs/heads/display.lnx.6.0.r3">
